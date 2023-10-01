@@ -1,10 +1,24 @@
 
-# Mitre Att&ck - evaluation
+# Mitre Att&ck - evaluation [Graphic mode]
 
     py .\mitre2graph.py <year>
 
 # Result
-![example of a chart obtained with the script](https://github.com/ZA512/mitre_evaluation/blob/main/img/screenshot.png)
+![example of a chart obtained with the script](https://github.com/ZA512/mitre_evaluation/blob/main/img/screenshot1.png)
+
+# Mitre Att&ck - evaluation [All result in a html table]
+
+    py .\mitre2html.py <year>
+
+# Result
+just open the html file created.
+In the "Mitre Evaluation html" folder, you'll find the tables 2021, 2022 and 2023. You can use them without running the script. But it may be a good idea to delete the solutions you don't want and manage the table only with the chosen solutions.
+
+![example of a chart obtained with the script](https://github.com/ZA512/mitre_evaluation/blob/main/img/screenshot2.png)
+
+# Don't work before 2021
+Since 2021 they have frozen the json format.
+
 
 # Explanation : Detection Categories
 ### **N/A :** 
